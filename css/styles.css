@@ -1,0 +1,135 @@
+:root {
+    --primary-text-color:#757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --text-color: #FFFFFF;
+    --background-button-color:#F5F4FA;
+    --footer-contact: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    background-color: #E5E5E5;
+    color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+/* logo */
+.part-logo {
+    color: var(--accent-color);
+}
+
+.logo {
+    color: #000000;
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--accent-color);
+}
+
+/* site nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* contacts */
+
+.contacts .contact-link {
+    color: var(--primary-text-color);
+}
+
+.contacts .contact-link:hover,
+.contacts .contact-link:focus {
+    color: var(--accent-color);;
+}
+
+/* hero */
+
+.button {
+    color: var(--text-color);
+    background-color: var(--accent-color);
+}
+
+.button.primery {
+    color: var(--text-color);
+    background-color: var(--accent-color);
+}
+
+.button.secondary {
+    color: var(--title-text-color);
+    background-color: var(--background-button-color);
+}
+
+/* section */
+
+.section-title {
+    color: var(--title-text-color);;
+}
+
+/* features */
+
+.feature-list .title {
+    color: var(--title-text-color);;
+}
+
+/* team */
+
+.team-list .title {
+    color: var(--title-text-color);
+}
+
+/* fotter contacts */
+
+.logo-down {
+    color: var(--text-color);
+}
+
+.logo-down:hover,
+.logo-down:focus {
+    color: var(--accent-color);
+}
+
+.address {
+    color: var(--text-color);
+}
+
+.address:hover,
+.address:focus {
+    color: var(--accent-color);
+}
+
+.footer-contact-link {
+    color: var(--footer-contact);
+}
+
+.footer-contact-link:hover,
+.footer-contact-link:focus {
+    color: var(--accent-color);
+}
+
+/* portfolio buttons */
+
+.button.secondary:hover,
+.button.secondary:focus {
+    color: var(--text-color);
+    background-color:var(--accent-color);
+}
+
+/* portfolio list */
+
+.portfolio-list .title {
+    color:var(--title-text-color);
+}
